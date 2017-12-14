@@ -299,6 +299,7 @@
     "test": "grunt",
     "test-cover": "nyc grunt nodeunit",
     "coveralls":
-      "nyc --reporter=lcov grunt nodeunit && cat ./coverage/lcov.info | coveralls"
+      "nyc --reporter=lcov grunt nodeunit && cat ./coverage/lcov.info | coveralls",
+    "myScript": "node ./testingStepper.js"
   }
 }
